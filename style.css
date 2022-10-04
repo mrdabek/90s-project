@@ -19,8 +19,12 @@ body {
     max-width: 1140px;
     margin: 0 auto;
     padding: 0 20px;
-
 }
+
+.tlo {
+    background-color: #fff;
+}
+
 
 section {
     padding: 70px 0;
@@ -203,6 +207,7 @@ section {
 
 .gallery ul  {
     list-style-type: none;
+    background-color: #fff;
     margin: 0;
     padding: 0;
     display: flex;
@@ -249,9 +254,20 @@ section {
 /* Contact */
 
 .contact {
-    background: #000;
+    background: #334956;
+    background-image: url(/images/bg.jpeg);
     margin: 0;
 }
+
+.contact-bg {
+    background-color: #334956;
+    max-width: 450px;
+    margin: 0 auto;
+    border: 5px solid #61bb46;
+    padding: 50px;
+}
+
+
 
 .contact .section-title {
     color: #fff;
@@ -259,7 +275,7 @@ section {
 
 .contact form {
     margin: 0 auto;
-    width: 400px;
+    max-width: 400px;
 }
 
 .contact-form input, textarea {
@@ -285,12 +301,9 @@ section {
 
 /* Footer */
 footer {
-    background: #242424;
-    color: #fff;
+    background: transparent;
 }
 
-footer p {
-    margin: 0;
-}
+
 
 
