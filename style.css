@@ -102,6 +102,9 @@ section {
 }
 
 .navigation ul {
+    position: fixed;
+    width: 100%;
+    z-index: 1;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -261,7 +264,7 @@ section {
 
 .contact-bg {
     background-color: #334956;
-    max-width: 450px;
+    max-width: 600px;
     margin: 0 auto;
     border: 5px solid #61bb46;
     padding: 50px;
@@ -282,7 +285,7 @@ section {
     display: block;
     width: 80%;
     margin: 20px auto;
-    height: 40px; 
+    height: 60px; 
 }
 
 .contact-form input[type="submit"] {
