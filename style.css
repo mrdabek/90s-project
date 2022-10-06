@@ -278,12 +278,12 @@ section {
 
 .contact form {
     margin: 0 auto;
-    max-width: 400px;
+    max-width: 600px;
 }
 
 .contact-form input, textarea {
     display: block;
-    width: 80%;
+    width: 100%;
     margin: 20px auto;
     height: 60px; 
 }
@@ -292,7 +292,7 @@ section {
     background: #c0392b;
     border: none;
     color: #fff;
-    width: 100px;
+    width: 150px;
     outline: none;
 }
 
