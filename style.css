@@ -286,6 +286,8 @@ section {
     width: 100%;
     margin: 20px auto;
     height: 60px; 
+    font-size: 1.5rem;
+    color: red;
 }
 
 .contact-form input[type="submit"] {
@@ -294,6 +296,10 @@ section {
     color: #fff;
     width: 150px;
     outline: none;
+}
+
+::placeholder {
+    color: green;
 }
 
 .contact-form input[type="submit"]:hover {
