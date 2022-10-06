@@ -58,8 +58,6 @@ section {
     background-image: url('images/jobs.png');
     background-position: center;
     background-size: cover;
-    background-attachment: fixed;
-
 }
 
 .splash-inner {
@@ -121,7 +119,7 @@ section {
     padding: 1rem;
     list-style-type: none;
     color: #fff;
-    padding: 20px;
+    padding: 1rem;
 }
 
 .navigation a {
@@ -315,4 +313,21 @@ footer {
 
 
 
+/* Media queries */ 
+@media (max-width: 480px) {
+    .navigation {
+        font-size: 3rem;
+    }
 
+    .applelogo {
+        width: 25%;
+        height: 25%
+    }
+}
+
+@media (min-width: 481px) {
+    .navigation {
+        font-size: 5rem;
+    }
+
+}
